@@ -26,7 +26,7 @@ public class DeliveryChangeDataTest {
     @DisplayName("Should successful plan and replan meeting")
     void shouldSuccessfulPlanAndReplanMeeting() {
         DataGenerator.UserInfo validUser = DataGenerator.Registration.generateUser("ru");
-        int addDaysFirstMeet = 1;
+        int addDaysFirstMeet = 5;
         String firstMeeting = DataGenerator.generateDate(addDaysFirstMeet);
         int addDaysSecondMeet = 8;
         String secondMeeting = DataGenerator.generateDate(addDaysSecondMeet);
